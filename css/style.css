@@ -221,7 +221,6 @@ img {
   padding-bottom: 200px;
   padding-top: 200px;
   display: flex;
-  background-image: url(/img/background.jpg);
 }
 
 .effect-container {
@@ -271,7 +270,7 @@ img {
   padding: 0;
 }
 
-.backdrop {
+/*.backdrop {
   background-color: rgba(0, 0, 0, 0.5);
   position: fixed;
   top: 0;
@@ -313,7 +312,7 @@ img {
   top: 8px;
   right: 8px;
   cursor: pointer;
-}
+}*/
 
 .task {
   display: none;
