@@ -139,6 +139,7 @@ img {
 }
 
 .mailto {
+  position: relative;
   list-style: none;
   color: var(--color);
   fill: var(--color);
@@ -172,6 +173,7 @@ img {
 }
 
 .tel {
+  position: relative;
   list-style: none;
   color: var(--color);
   fill: var(--color);
