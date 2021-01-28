@@ -78,23 +78,55 @@ img {
   font-family: Raleway;
   display: block;
   margin-right: 93px;
+  transition-duration: 250ms;
 }
 
 .studio {
+  position: relative;
   color: var(--color-hover);
   font-weight: 500;
   text-decoration: none;
 }
 
 .portfolio {
+  position: relative;
   color: var(--colot-text);
   font-weight: 500;
   text-decoration: none;
 }
 .contact {
+  position: relative;
   color: var(--colot-text);
   font-weight: 500;
   text-decoration: none;
+}
+
+.studio:hover .border,
+.studio:focus .border {
+  opacity: 1;
+}
+
+.portfolio:hover .border,
+.portfolio:focus .border {
+  opacity: 1;
+}
+
+.contact:hover .border,
+.contact:focus .border {
+  opacity: 1;
+}
+
+.border {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: 4px;
+  display: block;
+  border-radius: 2px;
+  background-color: var(--color-hover);
+  opacity: 0;
+  transition-duration: 250ms;
 }
 
 .studio,
@@ -103,6 +135,7 @@ img {
   display: block;
   padding-top: 32px;
   padding-bottom: 32px;
+  transition-duration: 250ms;
 }
 
 .mailto {
@@ -112,6 +145,12 @@ img {
   text-decoration: none;
   padding-top: 32px;
   padding-bottom: 32px;
+  transition-duration: 250ms;
+}
+
+.mailto:hover .border,
+.mailto:focus .border {
+  opacity: 1;
 }
 
 .envelope {
@@ -139,6 +178,12 @@ img {
   text-decoration: none;
   padding-top: 32px;
   padding-bottom: 32px;
+  transition-duration: 250ms;
+}
+
+.tel:hover .border,
+.tel:focus .border {
+  opacity: 1;
 }
 
 .mailtel .mailto .tel {
@@ -369,6 +414,7 @@ img {
   align-items: center;
   justify-content: center;
   border-radius: 25px;
+  transition-duration: 250ms;
 }
 
 .icon-instagram {
@@ -384,6 +430,7 @@ img {
   align-items: center;
   justify-content: center;
   border-radius: 25px;
+  transition-duration: 250ms;
 }
 
 .icon-twitter {
@@ -399,6 +446,7 @@ img {
   align-items: center;
   justify-content: center;
   border-radius: 25px;
+  transition-duration: 250ms;
 }
 
 .icon-facebook {
@@ -414,6 +462,7 @@ img {
   align-items: center;
   justify-content: center;
   border-radius: 25px;
+  transition-duration: 250ms;
 }
 
 .icon-linkedin {
@@ -488,6 +537,7 @@ img {
   align-items: center;
   justify-content: center;
   fill: var(--icon);
+  transition-duration: 250ms;
 }
 
 .clients-company a:hover,
@@ -557,6 +607,7 @@ img {
   justify-content: center;
   border-radius: 25px;
   background: rgba(255, 255, 255, 0.1);
+  transition-duration: 250ms;
 }
 
 .footer-twitter {
@@ -568,6 +619,7 @@ img {
   justify-content: center;
   border-radius: 25px;
   background: rgba(255, 255, 255, 0.1);
+  transition-duration: 250ms;
 }
 
 .footer-facebook {
@@ -579,6 +631,7 @@ img {
   justify-content: center;
   border-radius: 25px;
   background: rgba(255, 255, 255, 0.1);
+  transition-duration: 250ms;
 }
 
 .footer-linkedin {
@@ -590,6 +643,7 @@ img {
   justify-content: center;
   border-radius: 25px;
   background: rgba(255, 255, 255, 0.1);
+  transition-duration: 250ms;
 }
 
 .WebStudios {
@@ -619,12 +673,14 @@ img {
   color: var(--color);
   text-decoration: none;
   display: block;
+  transition-duration: 250ms;
 }
 
 .mailtel-b {
   color: var(--color);
   text-decoration: none;
   display: block;
+  transition-duration: 250ms;
 }
 
 .footer address {
@@ -654,6 +710,7 @@ img {
   display: block;
   padding-top: 32px;
   padding-bottom: 32px;
+  transition-duration: 250ms;
 }
 
 .list-no-style-nav- {
@@ -673,13 +730,24 @@ img {
   text-decoration: none;
 }
 
+.portfolioo:hover .border,
+.portfolioo:focus .border {
+  opacity: 1;
+}
+
 .studioo {
+  position: relative;
   font-size: 14px;
   line-height: 1.14;
   letter-spacing: 0.02em;
   color: var(--colot-text);
   font-weight: 500;
   text-decoration: none;
+}
+
+.studioo:hover .border,
+.studioo:focus .border {
+  opacity: 1;
 }
 
 .portfolio-section {
@@ -726,6 +794,7 @@ button:active {
   background-color: var(--background-team);
   border-radius: 4px;
   cursor: pointer;
+  transition-duration: 250ms;
 }
 
 .button-type-b {
@@ -743,6 +812,7 @@ button:active {
   background-color: var(--background-team);
   border-radius: 4px;
   cursor: pointer;
+  transition-duration: 250ms;
 }
 
 .button-type-c {
@@ -760,6 +830,7 @@ button:active {
   background-color: var(--background-team);
   border-radius: 4px;
   cursor: pointer;
+  transition-duration: 250ms;
 }
 
 .button-type-d {
@@ -777,6 +848,7 @@ button:active {
   background-color: var(--background-team);
   border-radius: 4px;
   cursor: pointer;
+  transition-duration: 250ms;
 }
 
 .button-type-e {
@@ -794,6 +866,7 @@ button:active {
   background-color: var(--background-team);
   border-radius: 4px;
   cursor: pointer;
+  transition-duration: 250ms;
 }
 
 .work {
@@ -820,10 +893,44 @@ button:active {
 .list-no-style-work a:focus {
   box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06),
     1px 4px 6px rgba(0, 0, 0, 0.16);
+  transition: transform 250ms;
 }
 
 .work a {
   text-decoration: none;
+}
+
+.thumb-img {
+  position: relative;
+  overflow: hidden;
+}
+
+.thumb-img:hover .work-img,
+.thumb-img:focus .work-img {
+  transform: translatey(0);
+}
+
+.work-img {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(33, 150, 243, 0.9);
+  transform: translatey(100%);
+  transition-duration: 250ms;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.work-img .thumb-work {
+  margin: 0;
+  width: 322px;
+  height: 168px;
+  font-size: 18px;
+  line-height: 1.55;
+  color: var(--text-text);
 }
 
 .work-img-container {
