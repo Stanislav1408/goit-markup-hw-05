@@ -346,8 +346,8 @@ img {
 
 .thumb-label {
   position: absolute;
-  top: 224px;
-  right: 0;
+  bottom: 0;
+  left: 0;
   margin: 0;
   width: 370px;
   height: 70px;
@@ -401,6 +401,11 @@ img {
   margin: 16px 0 0 0;
 }
 
+.networks li {
+  width: 44px;
+  height: 44px;
+}
+
 .networks a:hover,
 .networks a:focus {
   fill: var(--text-text);
@@ -410,8 +415,8 @@ img {
 
 .instagram {
   display: flex;
-  width: 44px;
-  height: 44px;
+  width: 100%;
+  height: 100%;
   fill: var(--icon);
   align-items: center;
   justify-content: center;
@@ -426,8 +431,8 @@ img {
 
 .twitter {
   display: flex;
-  width: 44px;
-  height: 44px;
+  width: 100%;
+  height: 100%;
   fill: var(--icon);
   align-items: center;
   justify-content: center;
@@ -442,8 +447,8 @@ img {
 
 .facebook {
   display: flex;
-  width: 44px;
-  height: 44px;
+  width: 100%;
+  height: 100%;
   fill: var(--icon);
   align-items: center;
   justify-content: center;
@@ -458,8 +463,8 @@ img {
 
 .linkedin {
   display: flex;
-  width: 44px;
-  height: 44px;
+  width: 100%;
+  height: 100%;
   fill: var(--icon);
   align-items: center;
   justify-content: center;
@@ -602,8 +607,8 @@ img {
 
 .footer-instagram {
   display: flex;
-  width: 44px;
-  height: 44px;
+  width: 100%;
+  height: 100%;
   fill: var(--text-text);
   align-items: center;
   justify-content: center;
@@ -614,8 +619,8 @@ img {
 
 .footer-twitter {
   display: flex;
-  width: 44px;
-  height: 44px;
+  width: 100%;
+  height: 100%;
   fill: var(--text-text);
   align-items: center;
   justify-content: center;
@@ -626,8 +631,8 @@ img {
 
 .footer-facebook {
   display: flex;
-  width: 44px;
-  height: 44px;
+  width: 100%;
+  height: 100%;
   fill: var(--text-text);
   align-items: center;
   justify-content: center;
@@ -638,8 +643,8 @@ img {
 
 .footer-linkedin {
   display: flex;
-  width: 44px;
-  height: 44px;
+  width: 100%;
+  height: 100%;
   fill: var(--text-text);
   align-items: center;
   justify-content: center;
